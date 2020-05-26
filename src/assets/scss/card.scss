@@ -1,0 +1,25 @@
+$this: "card";
+
+#{$this}{
+  width: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+
+  & link {
+
+  }
+
+  & image {
+    // width: 60%;
+    // border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    height: 100%;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  & title {
+    
+  }
+}
